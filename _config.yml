@@ -1,14 +1,10 @@
 # Site settings
 title: My Little Website
-url: "http://yourwebsite.com"
+url: "http://yourwebsite.com" #during jekyll serve, this will be your localhost
 baseurl: #change this if your site is in a subfolder. Otherwise it will default to root
 
 # Social
 socialimg: /img/social.jpg
-
-# Use this for production
-#sass:
-#    style: compressed
 
 #Under the hood
 include: ["_pages"]
