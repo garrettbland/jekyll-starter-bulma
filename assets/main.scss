@@ -1,0 +1,21 @@
+---
+# only the main scss file needs front matter
+---
+
+//Import bulma variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+//--Edit bulma variables that will override default variables below
+
+//--
+
+//Import bulma stylesheet
+@import "../node_modules/bulma/bulma";
+
+//--Create new variables below
+
+//--
+
+//---Create custom css below here to override bulma below
+
+//---

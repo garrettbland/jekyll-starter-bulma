@@ -1,0 +1,19 @@
+# Site settings
+title: My Little Website
+url: "http://yourwebsite.com"
+baseurl: #change this if your site is in a subfolder. Otherwise it will default to root
+
+# Social
+socialimg: /img/social.jpg
+
+# Use this for production
+#sass:
+#    style: compressed
+
+#Under the hood
+include: ["_pages"]
+permalink: /:title/
+exclude: [.scss, README.md, gruntfile.js, package.json, .DS_Store, yarn.lock]
+sass:
+    load_paths:
+        - node_modules
