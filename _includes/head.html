@@ -5,33 +5,31 @@
 
 	<!-- Description -->
 	<title>{{ page.title }} | {{ site.title }}</title>
-	<meta name="description" content="{{ page.meta }}">
+	<meta name="description" content="{{ page.description }}">
 	<link rel="icon" type="image/png" href="{{site.url}}/favicon.ico">
 
 	<!-- Google+ -->
 	<link rel="publisher" href="https://plus.google.com/{{site.googleplus}}"/>
 	<meta itemprop="name" content="{{page.title}}">
-	<meta itemprop="description" content="{{page.subtitle}}">
-	<meta itemprop="image" content="{{site.url}}{{site.socialimg}}">
+	<meta itemprop="description" content="{{page.description}}">
+	<meta itemprop="image" {% if page.socialimage == null %} content="{{site.url}}{{site.socialimage}}" {% else %} content="{{site.url}}{{page.socialimage}}" {% endif %} >
 
 	<!-- Facebook -->
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="{{page.title}}"/>
-	<meta property="og:description" content="{{site.subtitle}}"/>
-	<meta property="og:image" content="{{site.url}}{{site.socialimg}}"/>
+	<meta property="og:description" content="{{page.description}}"/>
+	<meta property="og:image" {% if page.socialimage == null %} content="{{site.url}}{{site.socialimage}}" {% else %} content="{{site.url}}{{page.socialimage}}" {% endif %} />
 	<meta property="og:url" content="{{site.url}}{{page.url}}"/>
 	<meta property="og:site_name" content="{{ site.title }} "/>
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{{page.title}}">
-	<meta name="twitter:description" content="{{site.subtitle}}">
-	<meta name="twitter:image" content="{{site.url}}{{site.socialimg}}">
+	<meta name="twitter:description" content="{{page.description}}">
+	<meta name="twitter:image" {% if page.socialimage == null %} content="{{site.url}}{{site.socialimage}}" {% else %} content="{{site.url}}{{page.socialimage}}" {% endif %} >
 	<meta name="twitter:url" content="{{site.url}}{{page.url}}">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{site.url}}/assets/main.css">
-	<!-- Material icons font hosted by Google -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
