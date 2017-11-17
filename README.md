@@ -1,8 +1,8 @@
-# jekyll-starter
+# jekyll-starter-bulma
 
 Quickly get a jekyll website up and going with bulma css, a smart directory structure, and community standard seo practices
 
-[![](https://github.com/garrettbland/jekyll-starter-bulma/blob/master/README.jpg)
+![jekyll-starter-bulma](https://github.com/garrettbland/jekyll-starter-bulma/blob/master/README.jpg)
 
 #### Features
 - Bulma CSS framework + SCSS
