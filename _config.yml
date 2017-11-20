@@ -1,14 +1,21 @@
 # Site settings
-title: Jekyll Starter #title of your site
-url: "http://yourwebsite.com" #url for production. This is ignored during development but will be processed during build
+title: Jekyll Starter Bulma #title of your site
+url: "http://yourwebsite.com" #url for production. This is ignored during development but will be processed during build. During dev it will be 127.0.0.0:4000
 baseurl: #change this if your site is in a subfolder of root. (Example, your site is located under mysite.com/coffee)
 
 # Social
 socialimage: /img/social.jpg #default social image. Pages will use this if page specif socialimage is not specified
 
+# Pages and News
+collections:
+  pages:
+    output: true 
+  news:
+    output: true
+    permalink: /news/:slug/
+
+
 #Under the hood
-include: ["_pages"] #processes _pages directory when building. This is where you will add new pages and directories
-permalink: /:title/ #this is how page urls will look (Example, _pages/about/index.html => http://yourwebsite.com/about)
 exclude: [.scss, README.md, gruntfile.js, package.json, .DS_Store, yarn.lock] #excludes these files from jekyll build
 sass: #set directories to convert sass and scss files to css
     load_paths:

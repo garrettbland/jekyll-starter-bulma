@@ -14,10 +14,9 @@ Quickly get a jekyll website up and going with bulma css, a smart directory stru
 
 #### Installation
 
-1. `git clone https://github.com/garrettbland/jekyll-starter.git`
-2.  `cd jekyll-starter`
-3. `yarn install`
-4. `jekyll serve` *or*  `jekyll build`
+1. `git clone https://github.com/garrettbland/jekyll-starter-bulma.git`
+2.  `cd jekyll-starter-bulma`
+3. `jekyll serve` *or*  `jekyll build`
 
 #### Getting Started
 Refer here for documentation
