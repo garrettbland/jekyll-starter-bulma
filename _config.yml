@@ -9,14 +9,14 @@ socialimage: /img/social.jpg #default social image. Pages will use this if page 
 # Pages and News
 collections:
   pages:
-    output: true 
+    output: true
   news:
     output: true
     permalink: /news/:slug/
 
 
 #Under the hood
-exclude: [.scss, README.md, gruntfile.js, package.json, .DS_Store, yarn.lock] #excludes these files from jekyll build
+exclude: [.scss, README.md, README.jpg gruntfile.js, package.json, .DS_Store, yarn.lock] #excludes these files from jekyll build
 sass: #set directories to convert sass and scss files to css
     load_paths:
         - libraries

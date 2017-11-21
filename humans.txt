@@ -1,15 +1,24 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# CREATED BY
 
-    <Garrett Boatman> -- <Developer> -- <garrettboatman>
+    Garrett Bland
 
 # THANKS
 
-    <Run The Jewels 2>
+    Everyone on siteground, github, and the jekyll folks
 
-# TECHNOLOGY COLOPHON
+# TECHNOLOGY
 
-    HTML5, CSS3, JQuery
-    HTML5 Boilerplate
+    HTML5
+    CSS,SCSS,SASS
+    Jekyll
+    Javascript
+
+# FUN JOKE
+    What do you call a dinosaur that just got out of the water?...
+
+    -wet
+
+     ¯\_(ツ)_/¯
