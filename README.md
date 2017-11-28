@@ -13,6 +13,7 @@ _Quickly get a jekyll website up and going with bulma css, a smart directory str
 - Starter config, header, template, css and footer files
 - Plugin Free!
 - Sitemap.xml generator
+- Google Analytics Integration
 
 ### Installation
 
@@ -22,6 +23,15 @@ _Quickly get a jekyll website up and going with bulma css, a smart directory str
 
 ### Getting Started
 Refer here for documentation
+
+#### Getting your site ready for production
+1. Open up your project in terminal
+2. Make sure `jekyll serve` is not running
+3. Run `JEKYLL_ENV=production jekyll build`. It is important to get the environment variable set to production. This will include the analytics file to start tracking page visits
+
+#### Adding Google Analytics
+1. Change trackingID in `_confi.yml` and replace UA-XXXXXXXXX-Y
+3. Once you build your site with the environment flag set to production, your site will start tracking visits. See "Getting your site ready for production" above for environment details
 
 #### Adding a new page
 1. Create a new directory inside `_pages`. Lets call it `contact`

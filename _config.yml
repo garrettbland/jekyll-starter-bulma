@@ -1,10 +1,13 @@
 # Site settings
 title: Jekyll Starter Bulma #title of your site
 url: "http://yourwebsite.com" #url for production. This is ignored during development but will be processed during build. During dev it will be 127.0.0.0:4000
-baseurl: #change this if your site is in a subfolder of root. (Example, your site is located under mysite.com/coffee)
+baseurl: #change this if your site is not in root. (Example, your site is located under mysite.com/dev)
 
 # Social
 socialimage: /img/social.jpg #default social image. Pages will use this if page specif socialimage is not specified
+
+# Google Analytics
+trackingID: UA-XXXXXXXXX-Y
 
 # Pages and News
 collections:
