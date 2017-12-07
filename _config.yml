@@ -9,8 +9,15 @@ developerWebsite: "http://companyabc.com/"
 # Social
 socialimage: /img/social.jpg #default social image. Pages will use this if page specif socialimage is not specified
 
+
 # Google Analytics
 trackingID: UA-XXXXXXXXX-Y
+
+# Contact Information
+businessName: Garrett Bland
+address: 1503 East 27th Street, Hays, Kansas 67601
+email: gmorganbland@gmail.com
+phone: 785-658-6610
 
 # Pages and News
 collections:
