@@ -1,10 +1,14 @@
  <div class="container">
   <nav class="navbar is-transparent" >
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{site.url}}"
-      >
-        <img src="{{site.url}}/img/logo.png" alt="" width="auto" height="100%">
+      <a class="navbar-item" href="{{site.url}}">
+        {% if "{{site.url}}/img/logo.png" == null %}
+            <img src="{{site.url}}/img/logo.png" alt="" width="auto" height="100%">
+        {% else %}
+            {{site.title}}
+        {% endif %}
       </a>
+      
 
       <div class="navbar-burger burger" data-target="navMenu">
         <span></span>

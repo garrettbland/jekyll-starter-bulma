@@ -6,32 +6,34 @@ socialimage: "/img/social-image-about.jpg"
 ---
 
 <section class="section">
-  <div class="column">
-    <div class="column content">
-      <h1>{{site.title}}</h1>
-      <p>
-        Welcome to your new site! Super cool huh!
-      </p>
-      <p>
-        <ul>
-          <li><a href="{{site.url}}/about/">About</a></li>
-        </ul>
-        <h3>
-          Lastest News
-        </h3>
-          <ul>
-            {% for post in site.news %}
-              <h4>
-                <a href="{{site.url}}/news/{{post.slug}}">
+    <div class="container">
+        <div class="column">
+            <div class="column content">
+                <h1>{{site.title}}</h1>
+                <p>
+                    Welcome to your new site! Super cool huh!
+                </p>
+                <p>
+                    <ul>
+                        <li><a href="{{site.url}}/about/">About</a></li>
+                    </ul>
+                    <h3>
+                        Lastest News
+                    </h3>
+                    <ul>
+                        {% for post in site.news %}
+                        <h4>
+                            <a href="{{site.url}}/news/{{post.slug}}">
                   {{ post.title }}
                 </a>
-              </h4>
-              <p>
-                {{ post.description}}
-              </p>
-            {% endfor %}
-          </ul>
-      </p>
+                        </h4>
+                        <p>
+                            {{ post.description}}
+                        </p>
+                        {% endfor %}
+                    </ul>
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
