@@ -1,0 +1,58 @@
+ <div class="container">
+  <nav class="navbar is-transparent" >
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{site.url}}"
+      >
+        <img src="{{site.url}}/img/logo.png" alt="" width="auto" height="100%">
+      </a>
+
+      <div class="navbar-burger burger" id="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item nav-item-color" href="{{site.url}}/about/">
+          About
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link nav-item-color">
+            Drop Down
+          </a>
+          <div id="moreDropdown" class="navbar-dropdown is-boxed is-right">
+            <a class="navbar-item " href="{{site.url}}/about/">
+              <p>
+                <strong>About Us</strong>
+                <br>
+                <small>Learn more about us</small>
+              </p>
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item " href="{{site.url}}/#">
+              <p>
+                <strong>Some Page</strong>
+                <span class="tag is-success">New</span>
+                <br>
+                <small>This can be a description of your page</small>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info is-outlined" href="{{site.url}}/#">
+              <span>
+                Contact Us
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </nav>
+</div>
