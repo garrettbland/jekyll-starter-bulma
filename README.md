@@ -14,6 +14,7 @@ _Quickly get a jekyll website up and going with bulma css, a smart directory str
 - Plugin Free!
 - Sitemap.xml generator
 - Google Analytics Integration
+- Animate.css
 
 ### Installation
 
