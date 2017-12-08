@@ -3,21 +3,18 @@ title: Jekyll Starter Bulma #title of your site
 url: "http://yourwebsite.com" #url for production. This is ignored during development but will be processed during build. During dev it will be 127.0.0.0:4000
 
 # Developer
-developer: Company ABC
-developerWebsite: "http://companyabc.com/"
+developer: Garrett Bland #Developer
+developerWebsite: "http://garrettbland.com/"
 
 # Social
 socialimage: /img/social.jpg #default social image. Pages will use this if page specif socialimage is not specified
 
+#Info
+email: #used for formspree. This is where contact form info will send to
 
 # Google Analytics
 trackingID: UA-XXXXXXXXX-Y
 
-# Contact Information
-businessName: Garrett Bland
-address: 1503 East 27th Street, Hays, Kansas 67601
-email: gmorganbland@gmail.com
-phone: 785-658-6610
 
 # Pages and News
 collections:

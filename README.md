@@ -13,7 +13,7 @@ _Quickly get a jekyll website up and going with bulma css, a smart directory str
 - Starter config, header, template, css and footer files
 - Plugin Free!
 - Sitemap.xml generator
-- Google Analytics Integration
+- Google Analytics Integration & Formspree
 - Animate.css
 
 ### Installation

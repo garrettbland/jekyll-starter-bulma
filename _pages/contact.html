@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Contact"
+description: "Contact Us"
+socialimage: 
+permalink: "/contact/"
+---
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-6 is-offset-3 has-text-centered">
+                <h1 class="title is-1">
+                    Contact
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <form method="POST" action="http://formspree.io/{{site.email}}">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input name="Name" class="input" type="text" placeholder="Text input">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea name="Message" class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button type="submit" class="button is-link">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
